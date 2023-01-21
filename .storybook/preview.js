@@ -8,6 +8,19 @@ export const parameters = {
     matchers: {
       color: /(background|color)$/i,
       date: /Date$/
+    },
+    backgrounds: {
+      default: 'light',
+      values: [
+        {
+          name: 'light',
+          value: theme.colors.backgroundColor.mainBg
+        },
+        {
+          name: 'dark',
+          value: theme.colors.backgroundColor.darkBg
+        }
+      ]
     }
   }
 };
