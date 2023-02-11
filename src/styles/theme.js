@@ -8,7 +8,8 @@ export const theme = {
     fontColor: {
       primaryColor: '#2A3A77',
       secondaryColor: '#0067aa',
-      yellowColor: '#FFEA20'
+      yellowColor: '#FFEA20',
+      whiteColor: '#FFFFFF'
     }
   },
   fonts: {
@@ -34,10 +35,10 @@ export const theme = {
       normal: 'normal',
       italic: 'italic',
       oblique: 'oblique'
-    },
-    media: {
-      lteMedium: '(max-width: 768px)'
     }
+  },
+  media: {
+    lteMedium: '(max-width: 768px)'
   },
   spacings: {
     xxsmall: '0.8rem',

@@ -21,7 +21,7 @@ const titleCase = (upperCase) => css`
 `;
 
 const mediaFont = (theme) => css`
-  @media (${theme.fonts.media.lteMedium}) {
+  @media (${theme.media.lteMedium}) {
     font-size: ${theme.fonts.sizes.xlarge};
     transition: ${theme.transition.fast};
   }
