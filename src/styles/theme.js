@@ -3,7 +3,8 @@ export const theme = {
     backgroundColor: {
       mainBg: '#F8FAFA',
       secondaryBg: '#ffea87',
-      darkBg: '#22223b'
+      darkBg: '#22223b',
+      mediumGray: '#DDDDDD'
     },
     fontColor: {
       primaryColor: '#2A3A77',
@@ -13,14 +14,14 @@ export const theme = {
     }
   },
   fonts: {
-    primary:
-      "Poppins,'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-    secondary:
-      "Inter,'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-    light: 300,
-    normal: 400,
-    medium: 500,
-    bold: 600,
+    default: "'Open Sans', sans-serif",
+    secondary: "'Montserrat', sans-serif",
+    weight: {
+      light: 300,
+      normal: 400,
+      medium: 500,
+      bold: 600
+    },
     sizes: {
       xsmall: '8rem',
       small: '1.6rem',

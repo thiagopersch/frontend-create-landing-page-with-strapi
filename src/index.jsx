@@ -1,17 +1,17 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import { ThemeProvider } from 'styled-components';
 
 import { GlobalStyles } from './styles/global';
 import { theme } from './styles/theme';
 import Home from './templates/Home';
 
-const root = createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <GlobalStyles />
       <Home />
+      <GlobalStyles />
     </ThemeProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );

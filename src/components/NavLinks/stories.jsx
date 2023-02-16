@@ -12,4 +12,10 @@ export default {
   }
 };
 
-export const Default = (args) => <NavLinks {...args} />;
+export const Default = (args) => {
+  return (
+    <div>
+      <NavLinks {...args} />
+    </div>
+  );
+};
