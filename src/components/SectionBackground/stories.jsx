@@ -8,10 +8,10 @@ export default {
       <div>
         <h1>SectionBackground</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
-          vel nam eum facere vero, possimus voluptatibus doloribus corrupti
-          voluptates iure. Doloremque provident perspiciatis inventore at facere
-          repellendus quis accusamus nostrum!
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
+          doloribus debitis minima nam beatae alias eius, mollitia asperiores
+          animi dolorem esse, aperiam nesciunt praesentium. Labore vel optio
+          quaerat aspernatur expedita!
         </p>
       </div>
     )
@@ -21,4 +21,10 @@ export default {
   }
 };
 
-export const Default = (args) => <SectionBackground {...args} />;
+export const Template = (args) => {
+  return (
+    <div>
+      <SectionBackground {...args} />
+    </div>
+  );
+};

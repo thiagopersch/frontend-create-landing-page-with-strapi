@@ -39,4 +39,9 @@ export const GlobalStyles = createGlobalStyle`
     font-family: ${({ theme }) => theme.fonts.default};
     color: ${({ theme }) => theme.colors.fontColor.secondaryColor};
   }
+  
+  .table {
+    width: 100%;
+    overflow-y: auto;
+  }
 `;
